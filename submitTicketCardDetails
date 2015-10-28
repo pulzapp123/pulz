@@ -3,7 +3,7 @@
     "clientID": "3",
     "accessToken": "YES_ACCESS",
     "userInfo": {
-        "userID": "userID1",
+        "userID": "userID1from github",
         "firstName": "Shardul",
         "lastName": "Patel",
         "email": "xyz@domain.com"

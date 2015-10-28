@@ -1,0 +1,129 @@
+{
+
+    "clientID": "3",
+    "accessToken": "YES_ACCESS",
+    "userInfo": {
+        "userID": "userID1",
+        "firstName": "Shardul",
+        "lastName": "Patel",
+        "email": "xyz@domain.com"
+    },
+    "cards": [
+        {
+            "cardType": "PZCardTypeEventTicket",
+            "details": {
+                "logo": "http://pulzapp.com/logo.jpg",
+                "theme": {
+                    "bgTopColor": "#B4EC51",
+                    "bgBottomColor": "#429321"
+                },
+                "locationInfo": {
+                    "address": "C-4, Inorbit mall, Vashi.",
+                    "coordinates": {
+                        "lat": 12.34544,
+                        "long": 22.34343
+                    }
+                },
+                "primaryFields": [
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Event",
+                        "value": "The Hectic Glow in concert"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeDate",
+                        "title": "Doors open",
+                        "_comment_dateStyle":"PZDateStyleNone / PZDateStyleShort / PZDateStyleMedium / PZDateStyleLong / PZDateStyleFull",
+                        "dateStyle": "PZDateStyleNone",
+                        "_comment_timeStyle":"PZTimeStyleNone / PZTimeStyleShort / PZTimeStyleMedium / PZTimeStyleLong / PZTimeStyleFull",
+                        "timeStyle": "PZTimeStyleNone",
+                        "value": "2013-08-10T19:30:00+06:00"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeNumber",
+                        "title": "Seating section",
+                        "value": 5
+                    }
+                ],
+                "barcode": {
+                    "message": "ABCD 123 EFGH 456 IJKL 789 MNOP",
+                    "altText": "Some Human Readable String",
+                    "_comment_format":"PZBarcodeFormatNone / PZBarcodeFormatPDF417 / PZBarcodeFormatQR / PZBarcodeFormatAztec",
+                    "format": "PZBarcodeFormatNone",
+                    "_comment_messageEncoding":"PZBarcodeMessageEncodingDefault / PZBarcodeMessageEncodingISO88591",
+                    "messageEncoding": "PZBarcodeMessageEncodingDefault"
+                },
+                "extraFields": [
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Some Title",
+                        "value": "Some Description"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Some Title 2",
+                        "value": "Some Description 2"
+                    }
+                ]
+            }
+        },
+        {
+            "cardType": "PZCardTypeEventTicket",
+            "details": {
+                "logo": "http://pulzapp.com/logo.jpg",
+                "theme": {
+                    "bgTopColor": "#B4EC51",
+                    "bgBottomColor": "#429321"
+                },
+                "locationInfo": {
+                    "address": "C-4, Inorbit mall, Vashi.",
+                    "coordinates": {
+                        "lat": 12.34544,
+                        "long": 22.34343
+                    }
+                },
+                "primaryFields": [
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Event",
+                        "value": "The Hectic Glow in concert"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeDate",
+                        "title": "Doors open",
+                        "_comment_dateStyle":"PZDateStyleNone / PZDateStyleShort / PZDateStyleMedium / PZDateStyleLong / PZDateStyleFull",
+                        "dateStyle": "PZDateStyleNone",
+                        "_comment_timeStyle":"PZTimeStyleNone / PZTimeStyleShort / PZTimeStyleMedium / PZTimeStyleLong / PZTimeStyleFull",
+                        "timeStyle": "PZTimeStyleNone",
+                        "value": "2013-08-10T19:30:00+06:00"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeNumber",
+                        "title": "Seating section",
+                        "value": 5
+                    }
+                ],
+                "barcode": {
+                    "message": "ABCD 123 EFGH 456 IJKL 789 MNOP",
+                    "altText": "Some Human Readable String",
+                    "_comment_format":"PZBarcodeFormatNone / PZBarcodeFormatPDF417 / PZBarcodeFormatQR / PZBarcodeFormatAztec",
+                    "format": "PZBarcodeFormatNone",
+                    "_comment_messageEncoding":"PZBarcodeMessageEncodingDefault / PZBarcodeMessageEncodingISO88591",
+                    "messageEncoding": "PZBarcodeMessageEncodingDefault"
+                },
+                "extraFields": [
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Some Title",
+                        "value": "Some Description"
+                    },
+                    {
+                        "fieldType": "PZFieldTypeText",
+                        "title": "Some Title 2",
+                        "value": "Some Description 2"
+                    }
+                ]
+            }
+        }
+    ]
+}
